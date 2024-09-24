@@ -14,4 +14,6 @@
     <link href="{{ asset('admin-assets') }}/css/icons.min.css?v={{ time() }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{ asset('admin-assets') }}/css/app.min.css?v={{ time() }}" rel="stylesheet" type="text/css" />
+
+    @yield('css')
 </head>

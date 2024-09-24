@@ -36,11 +36,11 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title">Main</li>
+                <li class="menu-title">Admin Dashboard</li>
 
                 <li>
-                    <a href="index.html" class="waves-effect">
-                        <i class="mdi mdi-home"></i><span class="badge bg-primary float-end">3</span>
+                    <a href="{{ url('/admin/dashboard') }}" class="waves-effect">
+                        <i class="mdi mdi-home"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>

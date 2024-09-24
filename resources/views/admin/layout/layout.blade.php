@@ -17,7 +17,14 @@
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
-            @yield('content')
+
+            <div class="main-content">
+                {{-- Page Content Start --}}
+                @yield('content')
+                <!-- End Page-content -->
+
+                @include('admin.layout.includes.footer')
+            </div>
             <!-- end main content-->
 
         </div>
@@ -28,7 +35,7 @@
         <!-- Right bar overlay-->
         <div class="rightbar-overlay"></div>
 
-        @include('admin.layout.includes.footer')
+        @include('admin.layout.includes.footerScripts')
 
     </body>
 

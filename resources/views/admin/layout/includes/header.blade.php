@@ -4,21 +4,12 @@
 
             <!-- LOGO -->
             <div class="navbar-brand-box">
-                <a href="index.html" class="logo logo-dark">
+                <a href="{{ url('admin/dashboard') }}" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{asset('admin-assets')}}/images/logo-sm-dark.png" alt="" height="22">
+                        <img src="{{asset('admin-assets')}}/images/logo-sm-dark.png" alt="" height="30">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{asset('admin-assets')}}/images/logo-dark.png" alt="" height="24">
-                    </span>
-                </a>
-
-                <a href="index.html" class="logo logo-light">
-                    <span class="logo-sm">
-                        <img src="{{asset('admin-assets')}}/images/logo-sm-light.png" alt="" height="22">
-                    </span>
-                    <span class="logo-lg">
-                        <img src="{{asset('admin-assets')}}/images/logo-light.png" alt="" height="24">
+                        <img src="{{asset('admin-assets')}}/images/logo-dark.png" alt="" height="60">
                     </span>
                 </a>
             </div>
@@ -28,23 +19,6 @@
             <button type="button" class="btn px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
                 <i class="mdi mdi-menu"></i>
             </button>
-
-
-            <div class="dropdown d-none d-lg-inline-block align-self-center">
-                <button class="btn btn-header waves-effect  dropdown-toggle" type="button" id="createNewDropdown"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Create New<i class="mdi mdi-chevron-down ms-2"></i>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="createNewDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                        <div class="dropdown-divider"></div>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </div>
         </div>
 
         <div class="d-flex">
