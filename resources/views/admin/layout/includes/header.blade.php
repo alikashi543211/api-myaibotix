@@ -185,7 +185,7 @@
                             class="mdi mdi-lock-open-outline font-size-16 text-muted align-middle me-2"></i>
                         <span>Lock screen</span></a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-primary" href="#"><i
+                    <a class="dropdown-item text-primary"><i
                             class="mdi mdi-power font-size-16 align-middle me-2 text-primary"></i>
                         <span>Logout</span></a>
                 </div>
